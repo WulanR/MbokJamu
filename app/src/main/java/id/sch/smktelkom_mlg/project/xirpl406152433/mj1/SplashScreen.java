@@ -7,13 +7,9 @@ import android.os.Handler;
 import android.view.Window;
 import android.view.WindowManager;
 
-/**
- * Created by Milo Nestlea on 11/10/2016.
- */
-
 public class SplashScreen extends Activity {
 
-    private static int splashInterval = 2000;
+    private static int splashInterval = 3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
